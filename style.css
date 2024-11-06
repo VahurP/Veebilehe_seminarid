@@ -1,0 +1,83 @@
+/* Üldine stiil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Taustavärv */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em; /* Pealkirja suurus */
+    color: #ff6347; /* Pealkirja värv */
+    font-family: 'Courier New', Courier, monospace; /* Erinev font pealkirjale */
+}
+
+.text {
+    color: #333;
+    font-size: 1.2em;
+    text-align: justify; /* Joondus */
+    font-family: 'Georgia', serif; /* Erinev font tekstile */
+}
+
+/* Piltide stiil */
+.image {
+    border: 5px solid #333; /* Raam pildi ümber */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Vari */
+    max-width: 100%;
+}
+
+/* Tabeli stiil */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #4CAF50; /* Tabeli päise värv */
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Kolonnide stiil */
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    width: 48%;
+}
+
+/* Lehe taust */
+body {
+    background-image: url('taust.jpg');
+    background-size: cover;
+}
+
+/* Kaks tulpa */
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
